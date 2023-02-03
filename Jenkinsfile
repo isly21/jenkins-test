@@ -9,7 +9,7 @@ pipeline{
 				skipDefaultCheckout()
 		    }*/
             steps{
-            	bat """echo hello"""
+            	bat 'echo hello'
             }
         }
     }
